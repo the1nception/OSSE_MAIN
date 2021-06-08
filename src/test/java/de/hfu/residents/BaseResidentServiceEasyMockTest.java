@@ -20,7 +20,7 @@ public class BaseResidentServiceEasyMockTest {
         liste.add(resident1);
 
         ResidentRepository repositoryMock = mock(ResidentRepository.class);
-        when(repositoryMock.getResidents()).thenReturn(liste);
+        expect(repositoryMock.getResidents()).andReturn(liste);
 
         replay(repositoryMock);
         BaseResidentService service = new BaseResidentService();
