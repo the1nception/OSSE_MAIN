@@ -1,0 +1,8 @@
+de/hfu/residents/repository/ResidentRepository.class
+de/hfu/Util.class
+de/hfu/residents/service/ResidentService.class
+de/hfu/App.class
+de/hfu/residents/service/ResidentServiceException.class
+de/hfu/residents/service/BaseResidentService.class
+de/hfu/Queue.class
+de/hfu/residents/domain/Resident.class
