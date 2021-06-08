@@ -17,7 +17,7 @@ public class App
             String s = eingabe.readLine();
             String caps = s.toUpperCase();
             /**
-             * zweiter kommentar, nur so!
+             * Änderungsnachweis
              * @param caps ist der String mit Großbuchstaben
              */
             System.out.println(caps);
